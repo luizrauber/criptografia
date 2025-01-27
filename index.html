@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplos de Criptografia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Exemplos de Criptografia</h1>
+
+  <div class="example">
+    <h2>1. Criptografia Simétrica (AES-256-CBC)</h2>
+    <button onclick="runSymmetric()">Executar Exemplo</button>
+    <div id="output-symmetric" class="output"></div>
+  </div>
+
+  <div class="example">
+    <h2>2. Criptografia Assimétrica (RSA-OAEP)</h2>
+    <button onclick="runAsymmetric()">Executar Exemplo</button>
+    <div id="output-asymmetric" class="output"></div>
+  </div>
+
+  <div class="example">
+    <h2>3. Criptografia Híbrida (AES + RSA)</h2>
+    <button onclick="runHybrid()">Executar Exemplo</button>
+    <div id="output-hybrid" class="output"></div>
+  </div>
+
+  <!-- Importar os arquivos JavaScript -->
+  <script src="simetrica.js"></script>
+  <script src="assimetrica.js"></script>
+  <script src="hibrida.js"></script>
+</body>
+</html>
+
+<!-- PS. Sim, é tudo chatgpt -->
